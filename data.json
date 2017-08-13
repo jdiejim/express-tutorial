@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Peter Parker",
+      "superhero": "Spiderman"
+    },
+    {
+      "name": "Tony Stark",
+      "superhero": "Iron Man"
+    },
+    {
+      "name": "Thor",
+      "superhero": "Thor"
+    },
+    {
+      "name": "Bruce Banner",
+      "superhero": "Hulk"
+    },
+    {
+      "name": "Steve Rogers",
+      "superhero": "Captain America"
+    }
+  ]
+}

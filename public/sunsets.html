@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sunsets</title>
+  </head>
+  <body>
+    <a href="/">To home</a>
+
+    <script type="text/javascript">
+    var sunsets = [
+      'https://upload.wikimedia.org/wikipedia/commons/5/58/Sunset_2007-1.jpg',
+      'http://wp.lps.org/train-2015-12-14/files/2015/12/sunset-04.jpg',
+      'http://www.youmustbetrippin.com/wp-content/uploads/2014/07/Sunset-Blog-Contest-1024x735.jpg',
+      'https://i.ytimg.com/vi/f61PbjjVuF0/maxresdefault.jpg'
+    ];
+
+    sunsets.forEach(function(sunset) {
+      var image = document.createElement('img');
+
+      image.setAttribute('width', '200px');
+      image.setAttribute('src', sunset);
+      document.body.appendChild(image);
+    })
+    </script>
+  </body>
+</html>
